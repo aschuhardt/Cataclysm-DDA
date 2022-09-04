@@ -267,6 +267,7 @@ bool cleanup_at_end()
                                  .max_length( iMaxWidth - 4 - 1 )
                                  .query_string();
         g->death_screen();
+        /*
         const bool is_suicide = g->uquit == QUIT_SUICIDE;
         std::chrono::seconds time_since_load =
             std::chrono::duration_cast<std::chrono::seconds>(
@@ -276,6 +277,7 @@ bool cleanup_at_end()
         // Struck the save_player_data here to forestall Weirdness
         g->move_save_to_graveyard();
         g->write_memorial_file( sLastWords );
+        */
         get_memorial().clear();
         std::vector<std::string> characters = g->list_active_saves();
         // remove current player from the active characters list, as they are dead

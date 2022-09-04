@@ -228,3 +228,4 @@ weather.output
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+.cache/
