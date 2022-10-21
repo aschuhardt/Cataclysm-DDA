@@ -2,7 +2,14 @@ cmake_minimum_required(VERSION 3.21)
 
 project(CataclysmDDA)
 
+<<<<<<< HEAD
 list(APPEND CMAKE_MODULE_PATH
+=======
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+set(CMAKE_MODULE_PATH
+        ${CMAKE_MODULE_PATH}
+>>>>>>> 9b6603b2afdd18b29658580849f5bc5c520a4acf
         ${CMAKE_SOURCE_DIR}/CMakeModules)
 if (NOT VCPKG_MANIFEST_MODE)
     list(APPEND CMAKE_MODULE_PATH
